@@ -1,7 +1,8 @@
 #Lauren Bowman
-#Lab 9
+#CTC386
+# Lab 10
 #GitHub test comment
-def celsius(): 
+def celsius():
     f = float(input( "What is the temperature in Fahrenheit?"))
     c =(f - 32) * 5/9
     print("The temperature in celsius is ", c)
@@ -23,7 +24,7 @@ correct = 10
 jackpot = 2
 option= int(input())
 
-if (option==1): 
+if (option==1):
          print ("How do you know when there's a singer at your door?")
          print ("They can't find the key and doesn't know when to come in!")
 if (option==2):
@@ -40,13 +41,13 @@ if (option == 4):
     while (x != correct):
 
         while x < 1 or x >100:
-            x = int(input("I'm sorry but you are out of range. Please select a number between 1 and 100: "))    
-            
+            x = int(input("I'm sorry but you are out of range. Please select a number between 1 and 100: "))
+
         if x > correct:
             print ("You guessed too high, guess again!")
         elif x < correct:
             print ("You guessed too low, guess again!")
-    
+
         x = int(input("Guess again: "))
 
     print("Woo hoo! You guessed the right number!")
@@ -63,7 +64,7 @@ if (option == 6):
 
         while y < 1 or y > 3:
             y = int (input("I'm sorry, but choose a box numbered 1, 2, or 3."))
-            
+
         if y == 1:
             print ("Congratulations! You won $1000!")
         elif y == 2:
@@ -71,9 +72,6 @@ if (option == 6):
         elif y == 3:
             print ("Good choice! You won $10,000!")
         break
-
-
-
 
 
 
